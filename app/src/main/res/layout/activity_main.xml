@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="연성대 홈페이지 가기"
+        android:backgroundTint="#999999"
+        android:layout_marginBottom="15dp"
+    />
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="119 응급 전화하기"
+        android:backgroundTint="#669966"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="갤러리 이동"
+        android:backgroundTint="#ff0000"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="앱 종료"
+        android:backgroundTint="#ffff33"
+        android:textColor="#000000"
+        android:layout_marginBottom="15dp"
+        />
+</LinearLayout>
